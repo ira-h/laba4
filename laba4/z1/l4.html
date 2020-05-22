@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="style.css" />
+<title>Darth Vader</title>
+</head>
+<body>
+<script src="l4.js"></script>
+<div class="container">
+<h1>Зміна властивостей зображення</h1>
+<img src="im1.jpg" id="im" />
+</div>
+
+<form action="">
+    <div class="input-group">
+    <input
+      type="text"   id="w" maxlength="4" pattern="\d*"class="input-text"
+      required
+    />
+    <label for="width">Ширина:</label>
+  </div>
+    <div class="input-group">
+        <input
+          type="text" id="h" maxlength="4" pattern="\d*" class="input-text" required
+        />
+        <label for="height">Высота:</label>
+      </div>
+    <div class="input-group">
+        <input
+          type="text" id="tl"  maxlength="1"pattern="\d*"class="input-text"
+          required
+        />
+        <label for="border-size">Толщина рамки:</label>       
+      </div>
+      <div class="input-group">
+        <input
+          type="text"  id="co" class="input-text"
+          required
+        />
+        <label for="border-color">Цвет рамки:</label>
+      </div>
+      <div class="input-group">
+        <input type="text"  id="al" class="input-text" />
+        <label for="alt-text">Изменить текст alt:</label>
+      </div>
+
+<p><input type="button" onclick="f1()" value="Изменить картинку" id=btn></p>
+</form>
+</body>
+</html>

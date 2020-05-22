@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    /* min-width: ; */
+  }
+  form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 50%;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  label {
+    margin-right: 1rem;
+    width: 40%;
+  }
+  .input-text {
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+  }
+  #btn {
+    height: 30px;
+    width: 40%;
+  }
+  .red-border{
+    border: 1px solid red;
+  }
